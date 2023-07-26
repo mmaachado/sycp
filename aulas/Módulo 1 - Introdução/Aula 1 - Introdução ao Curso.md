@@ -1,0 +1,24 @@
+# O que veremos durante o curso
+
+- Introdução
+- Ambiente
+- Linux
+- Redes
+- Programação
+- Coleta de informações
+- Criptografia
+- Exploits
+- Malwares
+- Engenharia reversa
+- Pós exploração Windows e Linux
+- Active Directory
+- Cloud Pentesting
+- Ataques MITM
+- Ataques DDoS
+- Dispositivos IoT
+- Wireless Hacking
+- Privacidade e Anonimato
+- Android
+- Hacking Gadgets
+- Bug Bounty
+- Conduzindo um Pentest
