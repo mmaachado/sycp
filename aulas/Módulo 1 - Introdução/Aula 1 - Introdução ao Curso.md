@@ -1,4 +1,4 @@
-# O que veremos durante o curso
+# O que veremos durante o curso 📌 
 
 - Introdução
 - Ambiente
@@ -22,3 +22,9 @@
 - Hacking Gadgets
 - Bug Bounty
 - Conduzindo um Pentest
+
+<br/>
+
+> ⚠️ ***Importante!!***
+>
+> *Nem todas as aulas serão registradas aqui, um exemplo são as aulas de apresentação ao ambiente e ferramentas, tendo em vista que anotações nesta etapa são praticamente desnecessárias!*
