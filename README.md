@@ -7,8 +7,10 @@
 
 
 <p align="center">
+  <img src="https://shields.io/badge/bash-5.2.15-4EAA25?logo=gnubash&style=flat">
   <img src="https://shields.io/badge/python-3.11.3-3776AB?logo=python&style=flat">
-  <img src="https://shields.io/badge/C-lang-A8B9CC?logo=c&style=flat"> 
+  <img src="https://shields.io/badge/C-17-A8B9CC?logo=c&style=flat"> 
+  <img src="https://shields.io/badge/PowerShell-7.3.6-5391FE?logo=powershell&style=flat"> 
   <img src="https://shields.io/badge/Kali-Linux-557C94?logo=kalilinux&style=flat"> 
 </p>
 
