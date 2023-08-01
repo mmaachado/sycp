@@ -36,3 +36,12 @@ Usei a estratégia dos instrutores, de realizar um módulo por semana, então, a
 
 ### Módulo 3 - Introdução ao Shell Scripting para Pentesters
 - [Curso Básico de Bash com o prof. Blau Araújo](https://www.youtube.com/playlist?list=PLXoSGejyuQGpf4X-NdGjvSlEFZhn2f2H7)
+
+
+### Módulo 4 - Introdução ao Python para Pentesters
+*Como Python é minha linguagem de programação principal e até esse momento do curso estou com mais de 148 horas de Python, vou "sacrificar" a semana de foco neste módulo e ao completar, direcionar meus estudos ao Bash Scripting, Linux em geral ou C. Mas não vou deixar de compartilhar conteúdos que recomendo muito para quem está começando com a linguagem!*
+
+- [Curso de Python com o prof. Otávio Miranda](https://www.youtube.com/watch?v=BIhxq1ZszY4&list=PLbIBj8vQhvm0ayQsrhEf-7-8JAj-MwmPr)
+- [Python fluente](https://pythonfluente.com/)
+
+*Esse último link possui um conteúdo mais para intermediário ao avançado na linguagem, mas teria me ajudado muito se eu tivesse o conhecido no inicio da minha carreira*
