@@ -3,10 +3,16 @@
 
 int main() {
 
-    char target[] = "google.com";
-    int door = 80;
+    char target[100]; 
+    int door;
 
-    printf("Start sending packages to target %s, using door %i", target, door);
+    printf("Type the target:\n"); 
+    scanf("%s", &target);
+
+    printf("Type the door:\n"); 
+    scanf("%i", &door);
+
+    printf("Starting attack on target %s, in door %i", target, door);
 
     return 0;
 }
