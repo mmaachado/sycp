@@ -1,0 +1,22 @@
+└─# wafw00f http://advanced.bancocn.com 
+
+                ______
+               /      \
+              (  W00f! )
+               \  ____/
+               ,,    __            404 Hack Not Found
+           |`-.__   / /                      __     __
+           /"  _/  /_/                       \ \   / /
+          *===*    /                          \ \_/ /  405 Not Allowed
+         /     )__//                           \   /
+    /|  /     /---`                        403 Forbidden
+    \\/`   \ |                                 / _ \
+    `\    /_\\_              502 Bad Gateway  / / \ \  500 Internal Error
+      `_____``-`                             /_/   \_\
+
+                        ~ WAFW00F : v2.2.0 ~
+        The Web Application Firewall Fingerprinting Toolkit
+    
+[*] Checking http://advanced.bancocn.com
+ERROR:wafw00f:Something went wrong HTTPConnectionPool(host='advanced.bancocn.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fca10300290>, 'Connection to advanced.bancocn.com timed out. (connect timeout=7)'))
+ERROR:wafw00f:Site advanced.bancocn.com appears to be down

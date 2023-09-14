@@ -1,0 +1,14 @@
+└─# nmap bancocn.com -sS -sV
+Starting Nmap 7.94 ( https://nmap.org ) at 2023-09-14 19:35 -03
+Nmap scan report for bancocn.com (104.21.52.8)
+Host is up (0.0021s latency).
+Other addresses for bancocn.com (not scanned): 2606:4700:3034::ac43:c0c7 2606:4700:3033::6815:3408 172.67.192.199
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Cloudflare http proxy
+443/tcp  open  ssl/https     cloudflare
+8080/tcp open  http          Cloudflare http proxy
+8443/tcp open  ssl/https-alt cloudflare
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 12.21 seconds

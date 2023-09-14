@@ -1,0 +1,68 @@
+└─# dnsenum bancocn.com
+dnsenum VERSION:1.2.6
+
+-----   bancocn.com   -----
+
+
+Host's addresses:
+__________________
+
+bancocn.com.                             300      IN    A        172.67.192.199
+bancocn.com.                             300      IN    A        104.21.52.8
+
+
+Name Servers:
+______________
+
+megan.ns.cloudflare.com.                 83635    IN    A        172.64.32.197
+megan.ns.cloudflare.com.                 83635    IN    A        173.245.58.197
+megan.ns.cloudflare.com.                 83635    IN    A        108.162.192.197
+noel.ns.cloudflare.com.                  85362    IN    A        108.162.193.216
+noel.ns.cloudflare.com.                  85362    IN    A        172.64.33.216
+noel.ns.cloudflare.com.                  85362    IN    A        173.245.59.216
+
+
+Mail (MX) Servers:
+___________________
+
+googlemail.com.                          300      IN    A        142.251.129.229
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for bancocn.com on megan.ns.cloudflare.com ... 
+AXFR record query failed: FORMERR
+
+Trying Zone Transfer for bancocn.com on noel.ns.cloudflare.com ... 
+AXFR record query failed: FORMERR
+
+
+Brute forcing with /usr/share/dnsenum/dns.txt:
+_______________________________________________
+
+shop.bancocn.com.                        300      IN    A        172.18.100.7
+www.bancocn.com.                         300      IN    A        172.67.192.199
+www.bancocn.com.                         300      IN    A        104.21.52.8
+
+
+bancocn.com class C netranges:
+_______________________________
+
+ 104.21.52.0/24
+ 172.67.192.0/24
+
+
+Performing reverse lookup on 512 ip addresses:
+_______________________________________________
+
+
+0 results out of 512 IP addresses.
+
+
+bancocn.com ip blocks:
+_______________________
+
+
+done.

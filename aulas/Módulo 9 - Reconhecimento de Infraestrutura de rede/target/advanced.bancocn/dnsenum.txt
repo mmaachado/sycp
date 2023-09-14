@@ -1,0 +1,16 @@
+└─# dnsenum advanced.bancocn.com
+dnsenum VERSION:1.2.6
+
+-----   advanced.bancocn.com   -----
+
+
+Host's addresses:
+__________________
+
+advanced.bancocn.com.                    300      IN    A        172.18.100.6
+
+
+Name Servers:
+______________
+
+ advanced.bancocn.com NS record query failed: NOERROR

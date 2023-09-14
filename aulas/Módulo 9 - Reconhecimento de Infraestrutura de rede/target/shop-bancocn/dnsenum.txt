@@ -1,0 +1,16 @@
+└─# dnsenum shop.bancocn.com
+dnsenum VERSION:1.2.6
+
+-----   shop.bancocn.com   -----
+
+
+Host's addresses:
+__________________
+
+shop.bancocn.com.                        300      IN    A        172.18.100.7
+
+
+Name Servers:
+______________
+
+ shop.bancocn.com NS record query failed: NOERROR

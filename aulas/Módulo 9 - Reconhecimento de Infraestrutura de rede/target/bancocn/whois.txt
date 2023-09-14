@@ -1,0 +1,92 @@
+└─# whois 104.21.52.8
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2023, American Registry for Internet Numbers, Ltd.
+#
+
+
+NetRange:       104.16.0.0 - 104.31.255.255
+CIDR:           104.16.0.0/12
+NetName:        CLOUDFLARENET
+NetHandle:      NET-104-16-0-0-1
+Parent:         NET104 (NET-104-0-0-0-0)
+NetType:        Direct Allocation
+OriginAS:       AS13335
+Organization:   Cloudflare, Inc. (CLOUD14)
+RegDate:        2014-03-28
+Updated:        2021-05-26
+Comment:        All Cloudflare abuse reporting can be done via https://www.cloudflare.com/abuse
+Ref:            https://rdap.arin.net/registry/ip/104.16.0.0
+
+
+
+OrgName:        Cloudflare, Inc.
+OrgId:          CLOUD14
+Address:        101 Townsend Street
+City:           San Francisco
+StateProv:      CA
+PostalCode:     94107
+Country:        US
+RegDate:        2010-07-09
+Updated:        2021-07-01
+Ref:            https://rdap.arin.net/registry/entity/CLOUD14
+
+
+OrgAbuseHandle: ABUSE2916-ARIN
+OrgAbuseName:   Abuse
+OrgAbusePhone:  +1-650-319-8930 
+OrgAbuseEmail:  abuse@cloudflare.com
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/ABUSE2916-ARIN
+
+OrgRoutingHandle: CLOUD146-ARIN
+OrgRoutingName:   Cloudflare-NOC
+OrgRoutingPhone:  +1-650-319-8930 
+OrgRoutingEmail:  noc@cloudflare.com
+OrgRoutingRef:    https://rdap.arin.net/registry/entity/CLOUD146-ARIN
+
+OrgNOCHandle: CLOUD146-ARIN
+OrgNOCName:   Cloudflare-NOC
+OrgNOCPhone:  +1-650-319-8930 
+OrgNOCEmail:  noc@cloudflare.com
+OrgNOCRef:    https://rdap.arin.net/registry/entity/CLOUD146-ARIN
+
+OrgTechHandle: ADMIN2521-ARIN
+OrgTechName:   Admin
+OrgTechPhone:  +1-650-319-8930 
+OrgTechEmail:  rir@cloudflare.com
+OrgTechRef:    https://rdap.arin.net/registry/entity/ADMIN2521-ARIN
+
+RAbuseHandle: ABUSE2916-ARIN
+RAbuseName:   Abuse
+RAbusePhone:  +1-650-319-8930 
+RAbuseEmail:  abuse@cloudflare.com
+RAbuseRef:    https://rdap.arin.net/registry/entity/ABUSE2916-ARIN
+
+RTechHandle: ADMIN2521-ARIN
+RTechName:   Admin
+RTechPhone:  +1-650-319-8930 
+RTechEmail:  rir@cloudflare.com
+RTechRef:    https://rdap.arin.net/registry/entity/ADMIN2521-ARIN
+
+RNOCHandle: NOC11962-ARIN
+RNOCName:   NOC
+RNOCPhone:  +1-650-319-8930 
+RNOCEmail:  noc@cloudflare.com
+RNOCRef:    https://rdap.arin.net/registry/entity/NOC11962-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2023, American Registry for Internet Numbers, Ltd.
+#
