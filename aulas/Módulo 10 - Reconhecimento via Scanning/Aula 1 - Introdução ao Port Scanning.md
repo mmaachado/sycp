@@ -1,0 +1,47 @@
+# Port Scanner 🔎
+
+## O que é? ❓
+
+Port Scanner é um programa capaz de varrer endereços a procura de portas abertas e serviços rodando. Ele faz isso mandando requisições e esperando por respostar características.
+
+## Port Scanner vs Port Sweep ❌
+
+Um Port Scanner é utilizado na maioria das vezes para enumerar serviços e portas abertas em um ou mais hosts.
+Já o Port Sweep utiliza o mesmo mecanismo mas dessa vez para encontrar diversos hosts com um determinado serviço rodando.
+
+<br/>
+
+## TCP Scanning 📦
+
+Scanning mais simples, se conecta ao host remoto e tenta estabelecer uma conexão na porta especificada. Também é conhecida por Connect Scan.
+Espera pelo 3-way handshake de uma conexão TCP. Utiliza as funções de conexão do sistema operacional e não precisa de privilégios administrativos.
+É um método barulhento e pode deixar logs com o IP do atacante.
+
+<br/>
+
+## SYN Scanning 🔍
+
+Também um TCP Scan, porém dessa vez não utiliza de funções prontas de conexão do sistema operacional e sim forja seus próprios pacotes de SYN que são enviados ao alvo, que por sua vez se estiver com a porta aberta responde com um pacote SYN ACK, então o atacante responde com pacote RST que fecha a conexão nunca completando o 3-way handshake.
+Como os pacotes são forjados tem-se um maior controle sobre o scan.
+
+<br/>
+
+## UDP Scanning
+
+O scan UDP é possível, porém lento e não tão confiável. Como o protocolo UDP não emite respostas em uma conexão fica difícil saber se a porta está aberta ou fechada, porém quando a porta está fechada é emitido um pacote ICMP (ping) com a mensagem de porta fechada.
+Portanto quando não é recebido mensagem alguma a porta é declarada como aberta, o que pode causar falsos positivos já que alguns firewalls cortam envio do ICMP, fazendo assim que a porta seja declarada como aberta quando na verdade está fechada.
+Uma outra abordagem seria enviar pacotes específicos de um serviço e esperar pela resposta de tais serviços.
+
+<br/>
+
+## FIN Scanning
+
+Com o uso em grande escala do SYN Scanning, a maioria dos firewalls bloqueia tais tipos de pacotes, enquanto o uso do FIN pode fazer o bypass do mesmo. A porta fechada então responde com um RST enquanto a porta aberta simplesmente ignora a conexão.
+
+<br/>
+
+## ICMP Scanning
+
+Utilizado para descoberta de Hosts ativos através do envio de pacotes ICMP (echo ou ping entre outros).
+Não é feita a descoberta de portas.
+Extremamente rápidos, mas nem sempre preciso.
