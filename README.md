@@ -34,6 +34,10 @@ Decidi ir além do conteúdo do curso, para solidificar ainda mais meus conhecim
 Usei a estratégia dos instrutores, de realizar um módulo por semana, então, a cada módulo que eu termino, os dias que "sobraram" estarei buscando me aprofundar mais com outros conteúdos sobre a ferramenta abordada nas aulas. Aqui vou listar tudo o que estudei, seguindo o [Guia de Cyber Security](https://github.com/arthurspk/guiadecybersecurity).
 
 
+### Módulo 2 - Dominando Linux para Pentesters
+
+Recomendo realizar o [Introduction to Linux (LFS101x)](https://training.linuxfoundation.org/training/introduction-to-linux/). É um curso voltado para iniciantes em Linux, fornecido pela própria Linux Foundation, contém mais de 60 horas de conteúdo totalmente gratuito onde abrange desde a filosofia por trás do Linux até o uso do terminal e bash scripting. Infelizmente para gerar a certificação precisa pagar.
+
 ### Módulo 3 - Introdução ao Shell Scripting para Pentesters
 - [Curso Básico de Bash com o prof. Blau Araújo](https://www.youtube.com/playlist?list=PLXoSGejyuQGpf4X-NdGjvSlEFZhn2f2H7)
 
@@ -45,3 +49,9 @@ Usei a estratégia dos instrutores, de realizar um módulo por semana, então, a
 - [Python fluente](https://pythonfluente.com/)
 
 *Esse último link possui um conteúdo mais para intermediário ao avançado na linguagem, mas teria me ajudado muito se eu tivesse o conhecido no inicio da minha carreira*
+
+### Módulo 7 - Redes para Pentesters
+
+Esse módulo foi o mais longo de todos, e quando terminei, precisei voltar aqui durante o andamento do curso para pegar alguns pontos que ficaram soltos.
+
+Durante esse tempo, dei uma pausa no curso para fazer a trilha profissionalizante do [Analista de Cibersegurança Júnior](https://skillsforall.com/career-path/cybersecurity?courseLang=pt-BR) da Cisco, que além de focar em um ensinamento mais profundo de Redes e Protocolos também te dá certificados que você pode adicionar no seu LinkedIn.
