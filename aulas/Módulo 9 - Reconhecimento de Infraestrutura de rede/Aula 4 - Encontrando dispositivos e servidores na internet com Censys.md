@@ -1,1 +1,0 @@
-# Encontrando dispositivos e servidores na internet com Censys
