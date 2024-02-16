@@ -21,6 +21,14 @@
 
 <br/>
 
+---
+
+## AVISO 💀
+
+Novidades em breve!
+
+---
+
 ## Atenção! ⚠️
 
 Todas as técnicas, bem como ferramentas e scripts aqui presentes foram utilizadas exclusivamente em ambientes controlados pela Solyd com o intuito educacional.
