@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sycp"
+version = "1.0"
+description = "Anotações realizadas durante a certificação SYCP 2023"
+authors = ["Marcelo Machado <marcelojmachadojr@proton.me>"]
+license = "CC BY-NC-SA 4.0 Deed"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "3.11.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
