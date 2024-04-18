@@ -5,61 +5,40 @@
   </a>
 </p>
 
-
-<p align="center">
-  <img src="https://shields.io/badge/bash-5.2.15-4EAA25?logo=gnubash&style=flat">
-  <img src="https://shields.io/badge/python-3.11.3-3776AB?logo=python&style=flat">
-  <img src="https://shields.io/badge/C-17-A8B9CC?logo=c&style=flat"> 
-  <img src="https://shields.io/badge/PowerShell-7.3.6-5391FE?logo=powershell&style=flat"> 
-  <img src="https://shields.io/badge/Kali-Linux-557C94?logo=kalilinux&style=flat"> 
-</p>
-
 <p align="center"><del>This book is the property of the Exiled Prince</p>
 
 # SYCP (Solyd Certified Pentester)
-<p>Repositório com anotações das atividades de todos os módulos realizados durante meus estudos na área de Cybersecurity através da Solyd, sinta-se livre para clonar e estudar, você vai precisar.</p>
+<p><del>Repositório com anotações das atividades de todos os módulos realizados durante meus estudos na área de Cybersecurity através da Solyd, sinta-se livre para clonar e estudar, você vai precisar.</p>
+
+O objetivo deste projeto é servir como um complemento para alunos da certificação [SYCP](https://solyd.com.br/cursos/pentest-do-zero-ao-profissional-v2024/), detalhando ao máximo cada tópico do curso.
 
 <br/>
 
 ---
 
-## AVISO 💀
+### Caso precise reconstruir o ambiente para as páginas
+#### Sobre o ambiente
 
-Novidades em breve!
+Todo este projeto é gerenciado pelo Poetry, a versão usada durante o momento da escrita é `1.8.2`:
 
----
+A versão do Python é a 3.11.7:
+```bash
+pyenv local 3.11.7
+```
 
-## Atenção! ⚠️
+Para configurar todo o ambiente basta executar:
+```bash
+poetry install
+```
 
-Todas as técnicas, bem como ferramentas e scripts aqui presentes foram utilizadas exclusivamente em ambientes controlados pela Solyd com o intuito educacional.
+#### Sobre os comandos
 
-<br/>
+Os comandos para executar funções como deploy, servidor local, etc. Estão sendo feitas pelo `taskipy`:
 
-## Conteúdo extra 🎁
+```bash
+task --list
+serve executa o servidor do local do mkdocs
+build 
 
-Decidi ir além do conteúdo do curso, para solidificar ainda mais meus conhecimentos, assim, busquei mais conteúdo além do que foi ofertado pela Solyd.
-
-Usei a estratégia dos instrutores, de realizar um módulo por semana, então, a cada módulo que eu termino, os dias que "sobraram" estarei buscando me aprofundar mais com outros conteúdos sobre a ferramenta abordada nas aulas. Aqui vou listar tudo o que estudei, seguindo o [Guia de Cyber Security](https://github.com/arthurspk/guiadecybersecurity).
-
-
-### Módulo 2 - Dominando Linux para Pentesters
-
-Recomendo realizar o [Introduction to Linux (LFS101x)](https://training.linuxfoundation.org/training/introduction-to-linux/). É um curso voltado para iniciantes em Linux, fornecido pela própria Linux Foundation, contém mais de 60 horas de conteúdo totalmente gratuito onde abrange desde a filosofia por trás do Linux até o uso do terminal e bash scripting. Infelizmente para gerar a certificação precisa pagar.
-
-### Módulo 3 - Introdução ao Shell Scripting para Pentesters
-- [Curso Básico de Bash com o prof. Blau Araújo](https://www.youtube.com/playlist?list=PLXoSGejyuQGpf4X-NdGjvSlEFZhn2f2H7)
-
-
-### Módulo 4 - Introdução ao Python para Pentesters
-*Como Python é minha linguagem de programação principal e até esse momento do curso estou com mais de 148 horas de Python, vou "sacrificar" a semana de foco neste módulo e ao completar, direcionar meus estudos ao Bash Scripting, Linux em geral ou C. Mas não vou deixar de compartilhar conteúdos que recomendo muito para quem está começando com a linguagem!*
-
-- [Curso de Python com o prof. Otávio Miranda](https://www.youtube.com/watch?v=BIhxq1ZszY4&list=PLbIBj8vQhvm0ayQsrhEf-7-8JAj-MwmPr)
-- [Python fluente](https://pythonfluente.com/)
-
-*Esse último link possui um conteúdo mais para intermediário ao avançado na linguagem, mas teria me ajudado muito se eu tivesse o conhecido no inicio da minha carreira*
-
-### Módulo 7 - Redes para Pentesters
-
-Esse módulo foi o mais longo de todos, e quando terminei, precisei voltar aqui durante o andamento do curso para pegar alguns pontos que ficaram soltos.
-
-Durante esse tempo, dei uma pausa no curso para fazer a trilha profissionalizante do [Analista de Cibersegurança Júnior](https://skillsforall.com/career-path/cybersecurity?courseLang=pt-BR) da Cisco, que além de focar em um ensinamento mais profundo de Redes e Protocolos também te dá certificados que você pode adicionar no seu LinkedIn.
+```
+Para executar qualquer comando, basta usar: `task <comando>`
