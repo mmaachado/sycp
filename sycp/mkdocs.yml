@@ -1,0 +1,76 @@
+site_name: SYCP
+site_url: "mmaachado.github.io/sycp/"
+docs_dir: aulas
+repo_url: https://github.com/mmaachado/sycp
+repo_name: mmaachado/sycp
+edit_uri: tree/master/aulas
+
+theme:
+  name: material
+  logo: assets/header.avif
+  favicon: assets/favicon.ico
+  language: pt-BR
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - search.suggest
+    - search.highlight
+    - search.share
+  palette:
+    - scheme: slate
+      primary: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+    - scheme: default
+      primary: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Modo escuro
+
+markdown_extensions:
+  - pymdownx.critic
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.details
+  - pymdownx.keys
+  - markdown.extensions.attr_list
+  - attr_list
+  - def_list
+  - admonition
+  - footnotes
+  - tables
+  - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+        - pymdownx.emoji:
+            emoji_index: !!python/name:material.extensions.emoji.twemoji
+            emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - glightbox
+  - search:
+      lang: pt
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mmaachado
+    - icon: fontawesome/brands/twitter
+      link: https://www.twitter.com/__marcz__
