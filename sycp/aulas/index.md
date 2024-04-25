@@ -1,6 +1,0 @@
----
-title: SYCP
-description: Boas vindas
----
-
-# SYCP
